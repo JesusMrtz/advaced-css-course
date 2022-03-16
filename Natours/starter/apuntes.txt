@@ -1,0 +1,51 @@
+El padding no se hereda, solamente los estilos que tienen que ver con los textos 
+
+- Las propiedades top, bottom, left y right (LAs que se utilizan para posicionar un elemento) se utilizan con relación al padre del elemento.
+
+- La propiedad transform: translate(x, y) se utilizan con relación al elemento que se desea transladar de lugar.
+
+- Para no hacer que la página quede lenta, es recomendable solamente animar dos propiedades con los keyframes
+
+- animation-fill-mode: backtrack, inicia la animación al revés, por ejemplo si tenemos esta animación:
+  - animation: moveInBottom .5s ease-out .75s;
+  - Primero inicia con el delay de la animación y ya no con la espera.
+
+
+
+LOS TRES PILARES DE CSS
+  - Responsive desing
+    * Crear una página web que responda a todos los tamaños de pantalla
+    * Diseños fluidos ( Fluid layouts )
+    * Media queries
+    * Imagenes responsivas
+    * Usar unidades correctas
+    * Desktop first vs mobile first
+  
+  - Recritura de código mantenible y escalable
+    * Debes escribir código limpio y fácil de entender que respalde el crecimiento futuro y sobre todo que sea reutilizable
+
+  - Rendimiento web
+    * Debes hacer tu código más rapido y más pequeño para que usuario descargue menos datos-
+    * Hacer la menor cantidad de peticiones HTTP posibles
+    * Escribir menos cantidad de código
+    * Comprimir nuestro código 
+    * Usar un preprocesador
+    * Reducir el uso de imagenes y comprimirlas
+
+
+
+COMO CSS TRABAJA DETRÁS DE ESCENA
+
+  - El navegador carga el HTML
+  - Procesa el HTML
+    * El navegador crea el DOM 
+  - Carga el CSS
+    * Procesa el CSS
+      * Las declaraciones CSS en conflicto se resuelven con la cascada 
+      * Procesa los valores CSS finales (pasar las unidades relativas a pixeles)
+      * Se crea el CSSOM (CSS object model), es similar al DOM
+  - Se renderiza el árbol
+  - El navegador renderiza el modelo de formato visual. Algoritmo complejo que se encarga de renderizar el box model, los floats y el posicinamiento.
+  - El navegador hace el renderizado final 
+
+
