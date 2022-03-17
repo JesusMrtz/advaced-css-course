@@ -49,3 +49,23 @@ COMO CSS TRABAJA DETRÁS DE ESCENA
   - El navegador hace el renderizado final 
 
 
+LA ARQUITECTURA 7 + 1
+  - Base
+    * Aqui va los estilos de bajo nivel, como los reseteos y estilos para el elemento HTML y del Body
+  
+  - Abstracts:
+    * Solo se pone código que no general CSS
+
+  - Components
+    * Códigos reutilizables 
+
+  - Layouts 
+    * Piezas de diseños globales (componentes globales) en la página web
+
+  - Pages
+    * Aqui va el código de páginas especificas
+
+  - Vendors
+    * Aqui va el código de terceros (librerias, plugins, etc)
+
+  
