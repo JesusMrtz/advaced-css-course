@@ -69,3 +69,14 @@ LA ARQUITECTURA 7 + 1
     * Aqui va el código de terceros (librerias, plugins, etc)
 
   
+
+EL utilizar ems o rems en los mediaqueries, estos no afectan la configuración que hace el usuario en el navegador, siempre valdrá 16px.
+Lo mejor para los mediaqueries es utilizar los ems ya que los rems no los soporta todos los navegadores.
+  - @media(max-width: 37.5em) => @media(max-width: 600px)
+
+
+El orden para hacer la página web responsiva es:
+  - Base y tipografia
+  - Layout general y grid
+  - page layout 
+  - Components
