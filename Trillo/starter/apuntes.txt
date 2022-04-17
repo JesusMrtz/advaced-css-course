@@ -1,0 +1,28 @@
+¿Qué es flexbox?
+  - Módulo de CSS3 que hace más facil alinear elementos de otro, en diferentes direcciones y ordenes
+  - Reemplaza los layouts flotantes, usando poco y código más logico.
+  - Flexbox cambia completamente la manera en el que construimos diseños, especialmente diseños unidimensionales.
+  - Es una verdadera revolución de CSS
+
+
+
+Propiedades para el container:
+  - flex-direction: row | row-reverse | column | column-reverse
+  - flex-wrap: nowrap | wrap | wrap-reverse 
+  - justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly 
+  - align-items: stretch | flex-start | flex-end | center | baseline
+  - align-content: stretch | flex-start | flex-end | center | space-between | space-around
+
+  * La diferencia entre align-items y align-content es que align-items surte efecto cuando solo hay una linea de items en el contenedor padre y align-items surte efecto cuando hay más de una linea de items
+
+
+Propiedades para los items:
+  - align-self: auto | stretch | flex-start | flex-end | center | baseline 
+  - order 0 | <integer>
+  - flex-grow: 0 | <integer>
+  - flex-shrink: 1 | <integer>
+  - flex-basis: auto | <length>
+  - flex: flex-grow flex-shrink flex-basis
+
+
+    
